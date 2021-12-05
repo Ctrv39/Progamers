@@ -1,0 +1,42 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ProgamersExpert' do
+
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+workspace 'ProgamersExpert'
+
+  # Pods for ProgamersExpert
+  pod 'SwiftLint'
+
+  target 'ProgamersExpertTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ProgamersExpertUITests' do
+    # Pods for testing
+  end
+
+end
+
+target 'Common' do
+    project '../Common/Common'
+ 
+end
+
+target 'Favorites' do
+    project '../Favorites/Favorites'
+
+end
+
+
+target 'GameRow' do
+    project '../GameRow/GameRow'
+
+end
+
+target 'Details' do
+    project '../Details/Details'
+end
