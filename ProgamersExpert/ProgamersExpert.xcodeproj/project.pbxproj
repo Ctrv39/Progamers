@@ -25,8 +25,6 @@
 		B0F2FC70272E4BA10079CB08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F2FC6F272E4BA10079CB08 /* Assets.xcassets */; };
 		B0F2FC73272E4BA10079CB08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F2FC72272E4BA10079CB08 /* Preview Assets.xcassets */; };
 		B0F2FC7D272E4BA10079CB08 /* ProgamersExpertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2FC7C272E4BA10079CB08 /* ProgamersExpertTests.swift */; };
-		B0F2FC87272E4BA10079CB08 /* ProgamersExpertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2FC86272E4BA10079CB08 /* ProgamersExpertUITests.swift */; };
-		B0F2FC89272E4BA10079CB08 /* ProgamersExpertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2FC88272E4BA10079CB08 /* ProgamersExpertUITestsLaunchTests.swift */; };
 		B0F2FCBD272E96290079CB08 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B0F2FCBC272E96290079CB08 /* Alamofire */; };
 		B0F2FCC1272E98600079CB08 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B0F2FCC0272E98600079CB08 /* RxCocoa */; };
 		B0F2FCC3272E98600079CB08 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B0F2FCC2272E98600079CB08 /* RxSwift */; };
@@ -38,18 +36,10 @@
 		B0F2FCDA272EA03C0079CB08 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = B0F2FCD9272EA03C0079CB08 /* AlertToast */; };
 		B0F2FCE5272EE22D0079CB08 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2FCE4272EE22D0079CB08 /* HomeRouter.swift */; };
 		B0F2FCFA2730371F0079CB08 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2FCF92730371F0079CB08 /* SettingsView.swift */; };
-		DA231FA769DCC73F9CC7F798 /* Pods_ProgamersExpert_ProgamersExpertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF4A00229D83C8D3C6467C6 /* Pods_ProgamersExpert_ProgamersExpertUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		B0F2FC79272E4BA10079CB08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B0F2FC60272E4B9E0079CB08 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B0F2FC67272E4B9E0079CB08;
-			remoteInfo = ProgamersExpert;
-		};
-		B0F2FC83272E4BA10079CB08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B0F2FC60272E4B9E0079CB08 /* Project object */;
 			proxyType = 1;
@@ -96,9 +86,6 @@
 		B0F2FC72272E4BA10079CB08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0F2FC78272E4BA10079CB08 /* ProgamersExpertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgamersExpertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F2FC7C272E4BA10079CB08 /* ProgamersExpertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgamersExpertTests.swift; sourceTree = "<group>"; };
-		B0F2FC82272E4BA10079CB08 /* ProgamersExpertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgamersExpertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0F2FC86272E4BA10079CB08 /* ProgamersExpertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgamersExpertUITests.swift; sourceTree = "<group>"; };
-		B0F2FC88272E4BA10079CB08 /* ProgamersExpertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgamersExpertUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B0F2FCC6272E9B610079CB08 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
 		B0F2FCC9272E9BD80079CB08 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		B0F2FCCF272E9D190079CB08 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
@@ -137,14 +124,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0F2FC7F272E4BA10079CB08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA231FA769DCC73F9CC7F798 /* Pods_ProgamersExpert_ProgamersExpertUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -168,7 +147,6 @@
 			children = (
 				B0F2FC6A272E4B9E0079CB08 /* ProgamersExpert */,
 				B0F2FC7B272E4BA10079CB08 /* ProgamersExpertTests */,
-				B0F2FC85272E4BA10079CB08 /* ProgamersExpertUITests */,
 				B0F2FC69272E4B9E0079CB08 /* Products */,
 				D915283FC0652EFB4E6F3727 /* Pods */,
 				9BE58B5FA039DE484881B18E /* Frameworks */,
@@ -180,7 +158,6 @@
 			children = (
 				B0F2FC68272E4B9E0079CB08 /* ProgamersExpert.app */,
 				B0F2FC78272E4BA10079CB08 /* ProgamersExpertTests.xctest */,
-				B0F2FC82272E4BA10079CB08 /* ProgamersExpertUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,15 +190,6 @@
 				B0F2FC7C272E4BA10079CB08 /* ProgamersExpertTests.swift */,
 			);
 			path = ProgamersExpertTests;
-			sourceTree = "<group>";
-		};
-		B0F2FC85272E4BA10079CB08 /* ProgamersExpertUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B0F2FC86272E4BA10079CB08 /* ProgamersExpertUITests.swift */,
-				B0F2FC88272E4BA10079CB08 /* ProgamersExpertUITestsLaunchTests.swift */,
-			);
-			path = ProgamersExpertUITests;
 			sourceTree = "<group>";
 		};
 		B0F2FC95272E4CB80079CB08 /* App */ = {
@@ -388,25 +356,6 @@
 			productReference = B0F2FC78272E4BA10079CB08 /* ProgamersExpertTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B0F2FC81272E4BA10079CB08 /* ProgamersExpertUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B0F2FC92272E4BA10079CB08 /* Build configuration list for PBXNativeTarget "ProgamersExpertUITests" */;
-			buildPhases = (
-				2DF99E722B07EDE1A9B4F631 /* [CP] Check Pods Manifest.lock */,
-				B0F2FC7E272E4BA10079CB08 /* Sources */,
-				B0F2FC7F272E4BA10079CB08 /* Frameworks */,
-				B0F2FC80272E4BA10079CB08 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B0F2FC84272E4BA10079CB08 /* PBXTargetDependency */,
-			);
-			name = ProgamersExpertUITests;
-			productName = ProgamersExpertUITests;
-			productReference = B0F2FC82272E4BA10079CB08 /* ProgamersExpertUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -421,10 +370,6 @@
 						CreatedOnToolsVersion = 13.0;
 					};
 					B0F2FC77272E4BA10079CB08 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = B0F2FC67272E4B9E0079CB08;
-					};
-					B0F2FC81272E4BA10079CB08 = {
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = B0F2FC67272E4B9E0079CB08;
 					};
@@ -454,7 +399,6 @@
 			targets = (
 				B0F2FC67272E4B9E0079CB08 /* ProgamersExpert */,
 				B0F2FC77272E4BA10079CB08 /* ProgamersExpertTests */,
-				B0F2FC81272E4BA10079CB08 /* ProgamersExpertUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -476,38 +420,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0F2FC80272E4BA10079CB08 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2DF99E722B07EDE1A9B4F631 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ProgamersExpert-ProgamersExpertUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		40B0095BC30ADFE42BC9EBBB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -596,15 +511,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0F2FC7E272E4BA10079CB08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0F2FC87272E4BA10079CB08 /* ProgamersExpertUITests.swift in Sources */,
-				B0F2FC89272E4BA10079CB08 /* ProgamersExpertUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -612,11 +518,6 @@
 			isa = PBXTargetDependency;
 			target = B0F2FC67272E4B9E0079CB08 /* ProgamersExpert */;
 			targetProxy = B0F2FC79272E4BA10079CB08 /* PBXContainerItemProxy */;
-		};
-		B0F2FC84272E4BA10079CB08 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B0F2FC67272E4B9E0079CB08 /* ProgamersExpert */;
-			targetProxy = B0F2FC83272E4BA10079CB08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -754,7 +655,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -785,7 +686,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -849,52 +750,6 @@
 			};
 			name = Release;
 		};
-		B0F2FC93272E4BA10079CB08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7754D78984B2B23F01179F9A /* Pods-ProgamersExpert-ProgamersExpertUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.ProgamersExpertUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ProgamersExpert;
-			};
-			name = Debug;
-		};
-		B0F2FC94272E4BA10079CB08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49438CD37F4F5AE5DA34DEDB /* Pods-ProgamersExpert-ProgamersExpertUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.ProgamersExpertUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ProgamersExpert;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -921,15 +776,6 @@
 			buildConfigurations = (
 				B0F2FC90272E4BA10079CB08 /* Debug */,
 				B0F2FC91272E4BA10079CB08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B0F2FC92272E4BA10079CB08 /* Build configuration list for PBXNativeTarget "ProgamersExpertUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B0F2FC93272E4BA10079CB08 /* Debug */,
-				B0F2FC94272E4BA10079CB08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
