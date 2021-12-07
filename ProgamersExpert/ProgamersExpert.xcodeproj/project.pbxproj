@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4795C2D6A58119E6E00C4752 /* Pods_ProgamersExpertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0158610D5E098D725F0A97C6 /* Pods_ProgamersExpertTests.framework */; };
 		76D3FAD3E4DFB711615233A8 /* Pods_ProgamersExpert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E599200234FC2AD601C3ED /* Pods_ProgamersExpert.framework */; };
 		90B48136275FB43500F6C28F /* ProgamersExpertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B48135275FB43500F6C28F /* ProgamersExpertTests.swift */; };
 		90B48143275FB82000F6C28F /* CorePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 90B48142275FB82000F6C28F /* CorePackage */; };
@@ -15,6 +16,8 @@
 		90B48149275FBC6F00F6C28F /* Details.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B48148275FBC6F00F6C28F /* Details.framework */; };
 		90B4814B275FBC6F00F6C28F /* Favorites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B4814A275FBC6F00F6C28F /* Favorites.framework */; };
 		90B4814D275FBC6F00F6C28F /* GameRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B4814C275FBC6F00F6C28F /* GameRow.framework */; };
+		90B48155275FC82300F6C28F /* ProgamersExpertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B48154275FC82300F6C28F /* ProgamersExpertUITests.swift */; };
+		90B48157275FC82300F6C28F /* ProgamersExpertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B48156275FC82300F6C28F /* ProgamersExpertUITestsLaunchTests.swift */; };
 		90B7C6A0274E81E1004C84ED /* GameRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7C69F274E81E1004C84ED /* GameRow.framework */; };
 		90B7C6A1274E81E1004C84ED /* GameRow.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7C69F274E81E1004C84ED /* GameRow.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		90C0D038275D0F1D00BCF7F6 /* CorePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 90C0D037275D0F1D00BCF7F6 /* CorePackage */; };
@@ -41,17 +44,8 @@
 		B0F2FCDA272EA03C0079CB08 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = B0F2FCD9272EA03C0079CB08 /* AlertToast */; };
 		B0F2FCE5272EE22D0079CB08 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2FCE4272EE22D0079CB08 /* HomeRouter.swift */; };
 		B0F2FCFA2730371F0079CB08 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2FCF92730371F0079CB08 /* SettingsView.swift */; };
+		EE3AFFF8366D9163A457928C /* Pods_ProgamersExpertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24DFFCEAE8081A71580647D /* Pods_ProgamersExpertUITests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		90B48137275FB43500F6C28F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B0F2FC60272E4B9E0079CB08 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B0F2FC67272E4B9E0079CB08;
-			remoteInfo = ProgamersExpert;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		90CD3F532745417E00EEE8B1 /* Embed Frameworks */ = {
@@ -84,11 +78,15 @@
 		90B48148275FBC6F00F6C28F /* Details.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Details.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B4814A275FBC6F00F6C28F /* Favorites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Favorites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B4814C275FBC6F00F6C28F /* GameRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GameRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B48152275FC82300F6C28F /* ProgamersExpertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgamersExpertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B48154275FC82300F6C28F /* ProgamersExpertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgamersExpertUITests.swift; sourceTree = "<group>"; };
+		90B48156275FC82300F6C28F /* ProgamersExpertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgamersExpertUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		90B7C69F274E81E1004C84ED /* GameRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GameRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CC50E42755134A00E12881 /* Details.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Details.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CD3F502745417D00EEE8B1 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CD3F6C2746710900EEE8B1 /* Favorites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Favorites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CD3F9927467C3B00EEE8B1 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4478D3CCA6156EAD6FFCDF8 /* Pods-ProgamersExpertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertUITests.debug.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertUITests/Pods-ProgamersExpertUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B09E313727357E95000C8566 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		B0F2FC68272E4B9E0079CB08 /* ProgamersExpert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgamersExpert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F2FC6B272E4B9E0079CB08 /* ProgamersExpertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgamersExpertApp.swift; sourceTree = "<group>"; };
@@ -104,6 +102,8 @@
 		B0F2FCF92730371F0079CB08 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B7C6B09511686EC50DEA6725 /* Pods-ProgamersExpertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertTests.release.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertTests/Pods-ProgamersExpertTests.release.xcconfig"; sourceTree = "<group>"; };
 		BABC2B21A4FE5CC96A72DA2D /* Pods-ProgamersExpert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpert.debug.xcconfig"; path = "Target Support Files/Pods-ProgamersExpert/Pods-ProgamersExpert.debug.xcconfig"; sourceTree = "<group>"; };
+		C24DFFCEAE8081A71580647D /* Pods_ProgamersExpertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgamersExpertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B2C7BE2DBBF77485C57E95 /* Pods-ProgamersExpertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertUITests.release.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertUITests/Pods-ProgamersExpertUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +117,15 @@
 				90B4814B275FBC6F00F6C28F /* Favorites.framework in Frameworks */,
 				90B48143275FB82000F6C28F /* CorePackage in Frameworks */,
 				90B48149275FBC6F00F6C28F /* Details.framework in Frameworks */,
+				4795C2D6A58119E6E00C4752 /* Pods_ProgamersExpertTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B4814F275FC82300F6C28F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3AFFF8366D9163A457928C /* Pods_ProgamersExpertUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +159,15 @@
 			path = ProgamersExpertTests;
 			sourceTree = "<group>";
 		};
+		90B48153275FC82300F6C28F /* ProgamersExpertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90B48154275FC82300F6C28F /* ProgamersExpertUITests.swift */,
+				90B48156275FC82300F6C28F /* ProgamersExpertUITestsLaunchTests.swift */,
+			);
+			path = ProgamersExpertUITests;
+			sourceTree = "<group>";
+		};
 		9BE58B5FA039DE484881B18E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +183,7 @@
 				61E599200234FC2AD601C3ED /* Pods_ProgamersExpert.framework */,
 				8EF4A00229D83C8D3C6467C6 /* Pods_ProgamersExpert_ProgamersExpertUITests.framework */,
 				0158610D5E098D725F0A97C6 /* Pods_ProgamersExpertTests.framework */,
+				C24DFFCEAE8081A71580647D /* Pods_ProgamersExpertUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,6 +194,7 @@
 				B0F2FC6A272E4B9E0079CB08 /* ProgamersExpert */,
 				B0F2FC7B272E4BA10079CB08 /* ProgamersExpertTests */,
 				90B48134275FB43500F6C28F /* ProgamersExpertTests */,
+				90B48153275FC82300F6C28F /* ProgamersExpertUITests */,
 				B0F2FC69272E4B9E0079CB08 /* Products */,
 				D915283FC0652EFB4E6F3727 /* Pods */,
 				9BE58B5FA039DE484881B18E /* Frameworks */,
@@ -186,6 +206,7 @@
 			children = (
 				B0F2FC68272E4B9E0079CB08 /* ProgamersExpert.app */,
 				90B48133275FB43500F6C28F /* ProgamersExpertTests.xctest */,
+				90B48152275FC82300F6C28F /* ProgamersExpertUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -329,6 +350,8 @@
 				49438CD37F4F5AE5DA34DEDB /* Pods-ProgamersExpert-ProgamersExpertUITests.release.xcconfig */,
 				87EE07B70C65A84FB50543F9 /* Pods-ProgamersExpertTests.debug.xcconfig */,
 				B7C6B09511686EC50DEA6725 /* Pods-ProgamersExpertTests.release.xcconfig */,
+				A4478D3CCA6156EAD6FFCDF8 /* Pods-ProgamersExpertUITests.debug.xcconfig */,
+				F4B2C7BE2DBBF77485C57E95 /* Pods-ProgamersExpertUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -340,6 +363,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90B48139275FB43500F6C28F /* Build configuration list for PBXNativeTarget "ProgamersExpertTests" */;
 			buildPhases = (
+				CD80BC7B222F957F27989923 /* [CP] Check Pods Manifest.lock */,
 				90B4812F275FB43500F6C28F /* Sources */,
 				90B48130275FB43500F6C28F /* Frameworks */,
 				90B48131275FB43500F6C28F /* Resources */,
@@ -347,9 +371,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				90B4813F275FB55800F6C28F /* PBXTargetDependency */,
-				90B48141275FB55800F6C28F /* PBXTargetDependency */,
-				90B48138275FB43500F6C28F /* PBXTargetDependency */,
 			);
 			name = ProgamersExpertTests;
 			packageProductDependencies = (
@@ -359,6 +380,24 @@
 			productName = ProgamersExpertTests;
 			productReference = 90B48133275FB43500F6C28F /* ProgamersExpertTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90B48151275FC82300F6C28F /* ProgamersExpertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B4815A275FC82300F6C28F /* Build configuration list for PBXNativeTarget "ProgamersExpertUITests" */;
+			buildPhases = (
+				A1CDBD21111E3B75EB87FE7E /* [CP] Check Pods Manifest.lock */,
+				90B4814E275FC82300F6C28F /* Sources */,
+				90B4814F275FC82300F6C28F /* Frameworks */,
+				90B48150275FC82300F6C28F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgamersExpertUITests;
+			productName = ProgamersExpertUITests;
+			productReference = 90B48152275FC82300F6C28F /* ProgamersExpertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		B0F2FC67272E4B9E0079CB08 /* ProgamersExpert */ = {
 			isa = PBXNativeTarget;
@@ -374,7 +413,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				90B4812E275FB2B900F6C28F /* PBXTargetDependency */,
 			);
 			name = ProgamersExpert;
 			packageProductDependencies = (
@@ -404,6 +442,10 @@
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = B0F2FC67272E4B9E0079CB08;
 					};
+					90B48151275FC82300F6C28F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B0F2FC67272E4B9E0079CB08;
+					};
 					B0F2FC67272E4B9E0079CB08 = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -420,11 +462,11 @@
 			);
 			mainGroup = B0F2FC5F272E4B9E0079CB08;
 			packageReferences = (
-				B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
 				B0F2FCBF272E98600079CB08 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				B0F2FCD5272E9FC60079CB08 /* XCRemoteSwiftPackageReference "SkeletonUI" */,
-				B0F2FCD8272EA03C0079CB08 /* XCRemoteSwiftPackageReference "AlertToast" */,
-				B09E31342735652F000C8566 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				B0F2FCD5272E9FC60079CB08 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */,
+				B0F2FCD8272EA03C0079CB08 /* XCRemoteSwiftPackageReference "AlertToast.git" */,
+				B09E31342735652F000C8566 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI.git" */,
 				90C0D036275D0F1D00BCF7F6 /* XCRemoteSwiftPackageReference "Progamers-CorePackage" */,
 			);
 			productRefGroup = B0F2FC69272E4B9E0079CB08 /* Products */;
@@ -433,12 +475,20 @@
 			targets = (
 				B0F2FC67272E4B9E0079CB08 /* ProgamersExpert */,
 				90B48132275FB43500F6C28F /* ProgamersExpertTests */,
+				90B48151275FC82300F6C28F /* ProgamersExpertUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		90B48131275FB43500F6C28F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B48150275FC82300F6C28F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -496,6 +546,50 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n\n";
 		};
+		A1CDBD21111E3B75EB87FE7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProgamersExpertUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD80BC7B222F957F27989923 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProgamersExpertTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -504,6 +598,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				90B48136275FB43500F6C28F /* ProgamersExpertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B4814E275FC82300F6C28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B48155275FC82300F6C28F /* ProgamersExpertUITests.swift in Sources */,
+				90B48157275FC82300F6C28F /* ProgamersExpertUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,29 +628,10 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		90B4812E275FB2B900F6C28F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 90B4812D275FB2B900F6C28F /* CorePackage */;
-		};
-		90B48138275FB43500F6C28F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B0F2FC67272E4B9E0079CB08 /* ProgamersExpert */;
-			targetProxy = 90B48137275FB43500F6C28F /* PBXContainerItemProxy */;
-		};
-		90B4813F275FB55800F6C28F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 90B4813E275FB55800F6C28F /* Alamofire */;
-		};
-		90B48141275FB55800F6C28F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 90B48140275FB55800F6C28F /* RxSwift */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		90B4813A275FB43500F6C28F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87EE07B70C65A84FB50543F9 /* Pods-ProgamersExpertTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -572,6 +656,7 @@
 		};
 		90B4813B275FB43500F6C28F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C6B09511686EC50DEA6725 /* Pods-ProgamersExpertTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +676,54 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgamersExpert.app/ProgamersExpert";
+			};
+			name = Release;
+		};
+		90B4815B275FC82300F6C28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4478D3CCA6156EAD6FFCDF8 /* Pods-ProgamersExpertUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5C7UNT444;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.ProgamersExpertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProgamersExpert;
+			};
+			name = Debug;
+		};
+		90B4815C275FC82300F6C28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B2C7BE2DBBF77485C57E95 /* Pods-ProgamersExpertUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5C7UNT444;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.ProgamersExpertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProgamersExpert;
 			};
 			name = Release;
 		};
@@ -784,6 +917,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
+		90B4815A275FC82300F6C28F /* Build configuration list for PBXNativeTarget "ProgamersExpertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B4815B275FC82300F6C28F /* Debug */,
+				90B4815C275FC82300F6C28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		B0F2FC63272E4B9E0079CB08 /* Build configuration list for PBXProject "ProgamersExpert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -813,7 +955,7 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		B09E31342735652F000C8566 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+		B09E31342735652F000C8566 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
@@ -821,7 +963,7 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -837,7 +979,7 @@
 				kind = branch;
 			};
 		};
-		B0F2FCD5272E9FC60079CB08 /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
+		B0F2FCD5272E9FC60079CB08 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CSolanaM/SkeletonUI.git";
 			requirement = {
@@ -845,7 +987,7 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		B0F2FCD8272EA03C0079CB08 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+		B0F2FCD8272EA03C0079CB08 /* XCRemoteSwiftPackageReference "AlertToast.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/elai950/AlertToast.git";
 			requirement = {
@@ -856,21 +998,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		90B4812D275FB2B900F6C28F /* CorePackage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 90C0D036275D0F1D00BCF7F6 /* XCRemoteSwiftPackageReference "Progamers-CorePackage" */;
-			productName = CorePackage;
-		};
-		90B4813E275FB55800F6C28F /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		90B48140275FB55800F6C28F /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0F2FCBF272E98600079CB08 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
 		90B48142275FB82000F6C28F /* CorePackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 90C0D036275D0F1D00BCF7F6 /* XCRemoteSwiftPackageReference "Progamers-CorePackage" */;
@@ -888,12 +1015,12 @@
 		};
 		B09E31352735652F000C8566 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B09E31342735652F000C8566 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			package = B09E31342735652F000C8566 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI.git" */;
 			productName = SDWebImageSwiftUI;
 		};
 		B0F2FCBC272E96290079CB08 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
 			productName = Alamofire;
 		};
 		B0F2FCC0272E98600079CB08 /* RxCocoa */ = {
@@ -908,12 +1035,12 @@
 		};
 		B0F2FCD6272E9FC60079CB08 /* SkeletonUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B0F2FCD5272E9FC60079CB08 /* XCRemoteSwiftPackageReference "SkeletonUI" */;
+			package = B0F2FCD5272E9FC60079CB08 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */;
 			productName = SkeletonUI;
 		};
 		B0F2FCD9272EA03C0079CB08 /* AlertToast */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B0F2FCD8272EA03C0079CB08 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			package = B0F2FCD8272EA03C0079CB08 /* XCRemoteSwiftPackageReference "AlertToast.git" */;
 			productName = AlertToast;
 		};
 /* End XCSwiftPackageProductDependency section */

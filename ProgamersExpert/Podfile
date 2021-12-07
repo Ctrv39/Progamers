@@ -15,6 +15,11 @@ workspace 'ProgamersExpert'
     # Pods for testing
   end
 
+  target 'ProgamersExpertUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
 end
 
 target 'Common' do
