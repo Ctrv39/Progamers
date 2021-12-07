@@ -15,10 +15,6 @@ workspace 'ProgamersExpert'
     # Pods for testing
   end
 
-  target 'ProgamersExpertUITests' do
-    # Pods for testing
-  end
-
 end
 
 target 'Common' do
