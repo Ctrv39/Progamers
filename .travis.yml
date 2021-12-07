@@ -1,5 +1,5 @@
 language: swift
-osx_image: xcode13
+osx_image: xcode13.1
 xcode_project: ProgamersExpert/ProgamersExpert.xcodeproj 
 xcode_scheme: ProgamersExpert
-xcode_destination: platform=iOS Simulator,OS=11.4,name=iPhone X
+xcode_destination: platform=iOS Simulator,OS=14.0.1,name=iPhone 11 Pro
