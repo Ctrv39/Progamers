@@ -4,5 +4,9 @@ xcode_project: ProgamersExpert/ProgamersExpert.xcodeproj
 xcode_scheme: ProgamersExpert
 xcode_destination: platform=iOS Simulator,OS=14.0.1,name=iPhone 11 Pro
 
+cache: cocoapods
+podfile: ProgamersExpert/Podfile
 before_install:
-  - gem install cocoapods-keys
+- gem install cocoapods # Since Travis is not always on latest version
+- pod repo update
+- pod install
