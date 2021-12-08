@@ -919,6 +919,27 @@
 			};
 			name = Debug;
 		};
+		5670975033D22DDD88D762D58D4BCD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFFF75F77385B962EBB56DE2AC42143 /* Pods-Common.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1058,28 +1079,6 @@
 			};
 			name = Release;
 		};
-		AF4C7C81430873B18C4A33729DA1A25B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88A2720ADCC78066B8E77F331EEFE3F1 /* Pods-Common.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		C05E6A1F8736F316C40835AF681A9BFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B54936D6DB37802AEEF40B896FD42FC /* Pods-ProgamersExpertTests.debug.xcconfig */;
@@ -1117,16 +1116,16 @@
 			};
 			name = Debug;
 		};
-		C3B8D88AE592B0FA5DB6356BFE6BA777 /* Debug */ = {
+		C8AA3BA01F034638546BE0D4044C0175 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DFFF75F77385B962EBB56DE2AC42143 /* Pods-Common.debug.xcconfig */;
+			baseConfigurationReference = 88A2720ADCC78066B8E77F331EEFE3F1 /* Pods-Common.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1135,8 +1134,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		CC9C5B4341248C1918E9AA2CBDFB9779 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1258,8 +1258,8 @@
 		1F1E70BFE5EDAB59A9370E72AD5F99BD /* Build configuration list for PBXNativeTarget "Pods-Common" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3B8D88AE592B0FA5DB6356BFE6BA777 /* Debug */,
-				AF4C7C81430873B18C4A33729DA1A25B /* Release */,
+				5670975033D22DDD88D762D58D4BCD15 /* Debug */,
+				C8AA3BA01F034638546BE0D4044C0175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

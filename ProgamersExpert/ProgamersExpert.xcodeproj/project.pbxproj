@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4795C2D6A58119E6E00C4752 /* Pods_ProgamersExpertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0158610D5E098D725F0A97C6 /* Pods_ProgamersExpertTests.framework */; };
-		76D3FAD3E4DFB711615233A8 /* Pods_ProgamersExpert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E599200234FC2AD601C3ED /* Pods_ProgamersExpert.framework */; };
+		6426913419F1781B8E82077B /* Pods_ProgamersExpert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59F57245C8BA6DB4CA06C4E /* Pods_ProgamersExpert.framework */; };
 		90B48136275FB43500F6C28F /* ProgamersExpertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B48135275FB43500F6C28F /* ProgamersExpertTests.swift */; };
 		90B48143275FB82000F6C28F /* CorePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 90B48142275FB82000F6C28F /* CorePackage */; };
 		90B48145275FBC6F00F6C28F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 90B48144275FBC6F00F6C28F /* RxSwift */; };
@@ -66,9 +66,9 @@
 
 /* Begin PBXFileReference section */
 		0158610D5E098D725F0A97C6 /* Pods_ProgamersExpertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgamersExpertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BE1378C67DEB68EC6AC905 /* Pods-ProgamersExpertAbs-ProgamersExpert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertAbs-ProgamersExpert.debug.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertAbs-ProgamersExpert/Pods-ProgamersExpertAbs-ProgamersExpert.debug.xcconfig"; sourceTree = "<group>"; };
 		4416CDF3CCAB71F6B1BEE2A1 /* Pods-ProgamersExpert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpert.release.xcconfig"; path = "Target Support Files/Pods-ProgamersExpert/Pods-ProgamersExpert.release.xcconfig"; sourceTree = "<group>"; };
 		49438CD37F4F5AE5DA34DEDB /* Pods-ProgamersExpert-ProgamersExpertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpert-ProgamersExpertUITests.release.xcconfig"; path = "Target Support Files/Pods-ProgamersExpert-ProgamersExpertUITests/Pods-ProgamersExpert-ProgamersExpertUITests.release.xcconfig"; sourceTree = "<group>"; };
-		61E599200234FC2AD601C3ED /* Pods_ProgamersExpert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgamersExpert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7754D78984B2B23F01179F9A /* Pods-ProgamersExpert-ProgamersExpertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpert-ProgamersExpertUITests.debug.xcconfig"; path = "Target Support Files/Pods-ProgamersExpert-ProgamersExpertUITests/Pods-ProgamersExpert-ProgamersExpertUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		87EE07B70C65A84FB50543F9 /* Pods-ProgamersExpertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertTests.debug.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertTests/Pods-ProgamersExpertTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EF4A00229D83C8D3C6467C6 /* Pods_ProgamersExpert_ProgamersExpertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgamersExpert_ProgamersExpertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,9 +100,11 @@
 		B0F2FCD3272E9F750079CB08 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B0F2FCE4272EE22D0079CB08 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		B0F2FCF92730371F0079CB08 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B59F57245C8BA6DB4CA06C4E /* Pods_ProgamersExpert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgamersExpert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C6B09511686EC50DEA6725 /* Pods-ProgamersExpertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertTests.release.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertTests/Pods-ProgamersExpertTests.release.xcconfig"; sourceTree = "<group>"; };
 		BABC2B21A4FE5CC96A72DA2D /* Pods-ProgamersExpert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpert.debug.xcconfig"; path = "Target Support Files/Pods-ProgamersExpert/Pods-ProgamersExpert.debug.xcconfig"; sourceTree = "<group>"; };
 		C24DFFCEAE8081A71580647D /* Pods_ProgamersExpertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgamersExpertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CA958B41168217CBCFC36B /* Pods-ProgamersExpertAbs-ProgamersExpert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertAbs-ProgamersExpert.release.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertAbs-ProgamersExpert/Pods-ProgamersExpertAbs-ProgamersExpert.release.xcconfig"; sourceTree = "<group>"; };
 		F4B2C7BE2DBBF77485C57E95 /* Pods-ProgamersExpertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertUITests.release.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertUITests/Pods-ProgamersExpertUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,7 +146,7 @@
 				B0F2FCDA272EA03C0079CB08 /* AlertToast in Frameworks */,
 				90CD3F512745417D00EEE8B1 /* Common.framework in Frameworks */,
 				B0F2FCBD272E96290079CB08 /* Alamofire in Frameworks */,
-				76D3FAD3E4DFB711615233A8 /* Pods_ProgamersExpert.framework in Frameworks */,
+				6426913419F1781B8E82077B /* Pods_ProgamersExpert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,10 +182,10 @@
 				90CD3F9927467C3B00EEE8B1 /* Core.framework */,
 				90CD3F6C2746710900EEE8B1 /* Favorites.framework */,
 				90CD3F502745417D00EEE8B1 /* Common.framework */,
-				61E599200234FC2AD601C3ED /* Pods_ProgamersExpert.framework */,
 				8EF4A00229D83C8D3C6467C6 /* Pods_ProgamersExpert_ProgamersExpertUITests.framework */,
 				0158610D5E098D725F0A97C6 /* Pods_ProgamersExpertTests.framework */,
 				C24DFFCEAE8081A71580647D /* Pods_ProgamersExpertUITests.framework */,
+				B59F57245C8BA6DB4CA06C4E /* Pods_ProgamersExpert.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -352,6 +354,8 @@
 				B7C6B09511686EC50DEA6725 /* Pods-ProgamersExpertTests.release.xcconfig */,
 				A4478D3CCA6156EAD6FFCDF8 /* Pods-ProgamersExpertUITests.debug.xcconfig */,
 				F4B2C7BE2DBBF77485C57E95 /* Pods-ProgamersExpertUITests.release.xcconfig */,
+				24BE1378C67DEB68EC6AC905 /* Pods-ProgamersExpertAbs-ProgamersExpert.debug.xcconfig */,
+				E8CA958B41168217CBCFC36B /* Pods-ProgamersExpertAbs-ProgamersExpert.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
