@@ -13,11 +13,15 @@ target 'ProgamersExpert' do
 
   target 'ProgamersExpertTests' do
     inherit! :search_paths
+   pod 'SwiftLint'
+
     # Pods for testing
   end
 
   target 'ProgamersExpertUITests' do
     inherit! :search_paths
+   pod 'SwiftLint'
+
     # Pods for testing
   end
 

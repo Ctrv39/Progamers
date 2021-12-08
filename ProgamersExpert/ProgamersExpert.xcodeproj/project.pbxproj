@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4795C2D6A58119E6E00C4752 /* Pods_ProgamersExpertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0158610D5E098D725F0A97C6 /* Pods_ProgamersExpertTests.framework */; };
-		6426913419F1781B8E82077B /* Pods_ProgamersExpert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59F57245C8BA6DB4CA06C4E /* Pods_ProgamersExpert.framework */; };
 		90B48136275FB43500F6C28F /* ProgamersExpertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B48135275FB43500F6C28F /* ProgamersExpertTests.swift */; };
 		90B48143275FB82000F6C28F /* CorePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 90B48142275FB82000F6C28F /* CorePackage */; };
 		90B48145275FBC6F00F6C28F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 90B48144275FBC6F00F6C28F /* RxSwift */; };
@@ -27,6 +26,8 @@
 		90CD3F522745417D00EEE8B1 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90CD3F502745417D00EEE8B1 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		90CD3F6D2746710900EEE8B1 /* Favorites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CD3F6C2746710900EEE8B1 /* Favorites.framework */; };
 		90CD3F6E2746710900EEE8B1 /* Favorites.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90CD3F6C2746710900EEE8B1 /* Favorites.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		90DCE7A02760F2F00012D35E /* Pods_ProgamersExpert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59F57245C8BA6DB4CA06C4E /* Pods_ProgamersExpert.framework */; };
+		90DCE7A12760F2F00012D35E /* Pods_ProgamersExpert.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B59F57245C8BA6DB4CA06C4E /* Pods_ProgamersExpert.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B09E31362735652F000C8566 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B09E31352735652F000C8566 /* SDWebImageSwiftUI */; };
 		B09E313827357E95000C8566 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E313727357E95000C8566 /* AboutView.swift */; };
 		B0F2FC6C272E4B9E0079CB08 /* ProgamersExpertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2FC6B272E4B9E0079CB08 /* ProgamersExpertApp.swift */; };
@@ -41,7 +42,7 @@
 		B0F2FCD0272E9D190079CB08 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2FCCF272E9D190079CB08 /* HomePresenter.swift */; };
 		B0F2FCD4272E9F750079CB08 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2FCD3272E9F750079CB08 /* HomeView.swift */; };
 		B0F2FCD7272E9FC60079CB08 /* SkeletonUI in Frameworks */ = {isa = PBXBuildFile; productRef = B0F2FCD6272E9FC60079CB08 /* SkeletonUI */; };
-		B0F2FCDA272EA03C0079CB08 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = B0F2FCD9272EA03C0079CB08 /* AlertToast */; };
+		B0F2FCDA272EA03C0079CB08 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = B0F2FCD9272EA03C0079CB08 /* AlertToast */; settings = {ATTRIBUTES = (Required, ); }; };
 		B0F2FCE5272EE22D0079CB08 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2FCE4272EE22D0079CB08 /* HomeRouter.swift */; };
 		B0F2FCFA2730371F0079CB08 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2FCF92730371F0079CB08 /* SettingsView.swift */; };
 		EE3AFFF8366D9163A457928C /* Pods_ProgamersExpertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24DFFCEAE8081A71580647D /* Pods_ProgamersExpertUITests.framework */; };
@@ -58,6 +59,7 @@
 				90CC50E62755134A00E12881 /* Details.framework in Embed Frameworks */,
 				90CD3F522745417D00EEE8B1 /* Common.framework in Embed Frameworks */,
 				90B7C6A1274E81E1004C84ED /* GameRow.framework in Embed Frameworks */,
+				90DCE7A12760F2F00012D35E /* Pods_ProgamersExpert.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,7 +148,7 @@
 				B0F2FCDA272EA03C0079CB08 /* AlertToast in Frameworks */,
 				90CD3F512745417D00EEE8B1 /* Common.framework in Frameworks */,
 				B0F2FCBD272E96290079CB08 /* Alamofire in Frameworks */,
-				6426913419F1781B8E82077B /* Pods_ProgamersExpert.framework in Frameworks */,
+				90DCE7A02760F2F00012D35E /* Pods_ProgamersExpert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,11 +468,11 @@
 			);
 			mainGroup = B0F2FC5F272E4B9E0079CB08;
 			packageReferences = (
-				B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
+				B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				B0F2FCBF272E98600079CB08 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				B0F2FCD5272E9FC60079CB08 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */,
-				B0F2FCD8272EA03C0079CB08 /* XCRemoteSwiftPackageReference "AlertToast.git" */,
-				B09E31342735652F000C8566 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI.git" */,
+				B0F2FCD5272E9FC60079CB08 /* XCRemoteSwiftPackageReference "SkeletonUI" */,
+				B0F2FCD8272EA03C0079CB08 /* XCRemoteSwiftPackageReference "AlertToast" */,
+				B09E31342735652F000C8566 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				90C0D036275D0F1D00BCF7F6 /* XCRemoteSwiftPackageReference "Progamers-CorePackage" */,
 			);
 			productRefGroup = B0F2FC69272E4B9E0079CB08 /* Products */;
@@ -959,7 +961,7 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		B09E31342735652F000C8566 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI.git" */ = {
+		B09E31342735652F000C8566 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
@@ -967,7 +969,7 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -983,7 +985,7 @@
 				kind = branch;
 			};
 		};
-		B0F2FCD5272E9FC60079CB08 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */ = {
+		B0F2FCD5272E9FC60079CB08 /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CSolanaM/SkeletonUI.git";
 			requirement = {
@@ -991,7 +993,7 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		B0F2FCD8272EA03C0079CB08 /* XCRemoteSwiftPackageReference "AlertToast.git" */ = {
+		B0F2FCD8272EA03C0079CB08 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/elai950/AlertToast.git";
 			requirement = {
@@ -1019,12 +1021,12 @@
 		};
 		B09E31352735652F000C8566 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B09E31342735652F000C8566 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI.git" */;
+			package = B09E31342735652F000C8566 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
 		};
 		B0F2FCBC272E96290079CB08 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = B0F2FCBB272E96290079CB08 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 		B0F2FCC0272E98600079CB08 /* RxCocoa */ = {
@@ -1039,12 +1041,12 @@
 		};
 		B0F2FCD6272E9FC60079CB08 /* SkeletonUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B0F2FCD5272E9FC60079CB08 /* XCRemoteSwiftPackageReference "SkeletonUI.git" */;
+			package = B0F2FCD5272E9FC60079CB08 /* XCRemoteSwiftPackageReference "SkeletonUI" */;
 			productName = SkeletonUI;
 		};
 		B0F2FCD9272EA03C0079CB08 /* AlertToast */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B0F2FCD8272EA03C0079CB08 /* XCRemoteSwiftPackageReference "AlertToast.git" */;
+			package = B0F2FCD8272EA03C0079CB08 /* XCRemoteSwiftPackageReference "AlertToast" */;
 			productName = AlertToast;
 		};
 /* End XCSwiftPackageProductDependency section */
