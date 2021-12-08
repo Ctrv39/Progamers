@@ -1,1 +1,1 @@
-xcrun xcodebuild -workspace "ProgamersExpert.xcworkspace" -scheme "ProgamersExpert"
+xcrun xcodebuild -workspace "ProgamersExpert/ProgamersExpert.xcworkspace" -scheme "ProgamersExpert"
