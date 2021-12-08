@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "20270A54D04F74D42DAC1F3A5B97667E"
-               BuildableName = "libPods-GameRow.a"
+               BuildableName = "Pods_GameRow.framework"
                BlueprintName = "Pods-GameRow"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
