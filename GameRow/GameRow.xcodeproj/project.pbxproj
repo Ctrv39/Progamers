@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D819AF295D71C0DA25E7A3F /* libPods-GameRow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 597061A3688404FCFA2B52E7 /* libPods-GameRow.a */; };
+		2BF27547125DD76536DCFD71 /* Pods_GameRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE85BEC9BA2679AD7D91BBE2 /* Pods_GameRow.framework */; };
 		90B7C68F274E80D2004C84ED /* GameRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B7C68E274E80D2004C84ED /* GameRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90B7C699274E81C2004C84ED /* GameRowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B7C696274E81C2004C84ED /* GameRowPresenter.swift */; };
 		90B7C69A274E81C2004C84ED /* GameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B7C698274E81C2004C84ED /* GameRow.swift */; };
@@ -22,7 +22,8 @@
 
 /* Begin PBXFileReference section */
 		226BDA560AF622A4A173C7A3 /* Pods-GameRow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameRow.debug.xcconfig"; path = "Target Support Files/Pods-GameRow/Pods-GameRow.debug.xcconfig"; sourceTree = "<group>"; };
-		597061A3688404FCFA2B52E7 /* libPods-GameRow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GameRow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5898630261D4C6F533E7AF77 /* Pods-ProgamersExpertAbs-GameRow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertAbs-GameRow.release.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertAbs-GameRow/Pods-ProgamersExpertAbs-GameRow.release.xcconfig"; sourceTree = "<group>"; };
+		7B2AA9590008D5B842DAA098 /* Pods-ProgamersExpertAbs-GameRow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertAbs-GameRow.debug.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertAbs-GameRow/Pods-ProgamersExpertAbs-GameRow.debug.xcconfig"; sourceTree = "<group>"; };
 		90B7C68B274E80D2004C84ED /* GameRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GameRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B7C68E274E80D2004C84ED /* GameRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameRow.h; sourceTree = "<group>"; };
 		90B7C696274E81C2004C84ED /* GameRowPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRowPresenter.swift; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		90B7C6AF274E8432004C84ED /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CC50BD2755059100E12881 /* Details.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Details.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2D2238EBCBC293D66082CE /* Pods-GameRow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameRow.release.xcconfig"; path = "Target Support Files/Pods-GameRow/Pods-GameRow.release.xcconfig"; sourceTree = "<group>"; };
+		FE85BEC9BA2679AD7D91BBE2 /* Pods_GameRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +46,7 @@
 				90B7C6AE274E83F2004C84ED /* SkeletonUI in Frameworks */,
 				90CC50E12755121B00E12881 /* RxCocoa in Frameworks */,
 				90C0D03B275D0F9A00BCF7F6 /* CorePackage in Frameworks */,
-				7D819AF295D71C0DA25E7A3F /* libPods-GameRow.a in Frameworks */,
+				2BF27547125DD76536DCFD71 /* Pods_GameRow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +58,8 @@
 			children = (
 				226BDA560AF622A4A173C7A3 /* Pods-GameRow.debug.xcconfig */,
 				9D2D2238EBCBC293D66082CE /* Pods-GameRow.release.xcconfig */,
+				7B2AA9590008D5B842DAA098 /* Pods-ProgamersExpertAbs-GameRow.debug.xcconfig */,
+				5898630261D4C6F533E7AF77 /* Pods-ProgamersExpertAbs-GameRow.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../ProgamersExpert/Pods;
@@ -120,7 +124,7 @@
 			children = (
 				90CC50BD2755059100E12881 /* Details.framework */,
 				90B7C6AF274E8432004C84ED /* Core.framework */,
-				597061A3688404FCFA2B52E7 /* libPods-GameRow.a */,
+				FE85BEC9BA2679AD7D91BBE2 /* Pods_GameRow.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,9 +193,9 @@
 			);
 			mainGroup = 90B7C681274E80D2004C84ED;
 			packageReferences = (
-				90B7C6A2274E82CE004C84ED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
-				90B7C6AC274E83F2004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI" */,
-				90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				90B7C6A2274E82CE004C84ED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI.git" */,
+				90B7C6AC274E83F2004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI.git" */,
+				90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift.git" */,
 				90C0D039275D0F9A00BCF7F6 /* XCRemoteSwiftPackageReference "Progamers-CorePackage" */,
 			);
 			productRefGroup = 90B7C68C274E80D2004C84ED /* Products */;
@@ -457,7 +461,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		90B7C6A2274E82CE004C84ED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+		90B7C6A2274E82CE004C84ED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
@@ -465,7 +469,7 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		90B7C6AC274E83F2004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
+		90B7C6AC274E83F2004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CSolanaM/SkeletonUI.git";
 			requirement = {
@@ -481,7 +485,7 @@
 				kind = branch;
 			};
 		};
-		90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -494,12 +498,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		90B7C6A3274E82CE004C84ED /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 90B7C6A2274E82CE004C84ED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			package = 90B7C6A2274E82CE004C84ED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI.git" */;
 			productName = SDWebImageSwiftUI;
 		};
 		90B7C6AD274E83F2004C84ED /* SkeletonUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 90B7C6AC274E83F2004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI" */;
+			package = 90B7C6AC274E83F2004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI.git" */;
 			productName = SkeletonUI;
 		};
 		90C0D03A275D0F9A00BCF7F6 /* CorePackage */ = {
@@ -509,12 +513,12 @@
 		};
 		90CC50E02755121B00E12881 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift.git" */;
 			productName = RxCocoa;
 		};
 		90CC50E22755121B00E12881 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift.git" */;
 			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */

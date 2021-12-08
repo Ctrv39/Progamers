@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03754654C0DCC10B288E2573 /* libPods-Favorites.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F46A9658D142595CF285FED4 /* libPods-Favorites.a */; };
+		09621ACCDF6C70B889FD6462 /* Pods_Favorites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8364D6C6E296FD763E053C51 /* Pods_Favorites.framework */; };
 		90B7C67D274E7F31004C84ED /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B7C67C274E7F31004C84ED /* FavoritesView.swift */; };
 		90B7C680274E7FB9004C84ED /* SkeletonUI in Frameworks */ = {isa = PBXBuildFile; productRef = 90B7C67F274E7FB9004C84ED /* SkeletonUI */; };
 		90B7C69C274E81D4004C84ED /* GameRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B7C69B274E81D4004C84ED /* GameRow.framework */; };
@@ -22,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		4CCCC1ABE83A2BB62BD24478 /* Pods-Favorites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favorites.release.xcconfig"; path = "Target Support Files/Pods-Favorites/Pods-Favorites.release.xcconfig"; sourceTree = "<group>"; };
+		8364D6C6E296FD763E053C51 /* Pods_Favorites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Favorites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B7C67C274E7F31004C84ED /* FavoritesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		90B7C69B274E81D4004C84ED /* GameRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GameRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CC50DB27550EE400E12881 /* Details.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Details.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,8 +33,9 @@
 		90CD3FC327492FB600EEE8B1 /* FavoritesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesRouter.swift; sourceTree = "<group>"; };
 		90CD3FC527492FB600EEE8B1 /* FavoritesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesPresenter.swift; sourceTree = "<group>"; };
 		90FDA8B4274E7DFC00DDBA9C /* FavoritesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesInteractor.swift; sourceTree = "<group>"; };
+		93511624D9DF8BB922C04A5A /* Pods-ProgamersExpertAbs-Favorites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertAbs-Favorites.debug.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertAbs-Favorites/Pods-ProgamersExpertAbs-Favorites.debug.xcconfig"; sourceTree = "<group>"; };
+		B431751D1A83CD64C63AFB44 /* Pods-ProgamersExpertAbs-Favorites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertAbs-Favorites.release.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertAbs-Favorites/Pods-ProgamersExpertAbs-Favorites.release.xcconfig"; sourceTree = "<group>"; };
 		C662622476B14762B38F67EF /* Pods-Favorites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Favorites.debug.xcconfig"; path = "Target Support Files/Pods-Favorites/Pods-Favorites.debug.xcconfig"; sourceTree = "<group>"; };
-		F46A9658D142595CF285FED4 /* libPods-Favorites.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Favorites.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,12 +43,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03754654C0DCC10B288E2573 /* libPods-Favorites.a in Frameworks */,
 				90CC50DC27550EE400E12881 /* Details.framework in Frameworks */,
 				90B7C680274E7FB9004C84ED /* SkeletonUI in Frameworks */,
 				90B7C69C274E81D4004C84ED /* GameRow.framework in Frameworks */,
 				90C0D041275D0FC000BCF7F6 /* CorePackage in Frameworks */,
 				90CD3F702746711800EEE8B1 /* Common.framework in Frameworks */,
+				09621ACCDF6C70B889FD6462 /* Pods_Favorites.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +62,7 @@
 				90B7C69B274E81D4004C84ED /* GameRow.framework */,
 				90CD3FBC27468F7C00EEE8B1 /* Core.framework */,
 				90CD3F6F2746711800EEE8B1 /* Common.framework */,
-				F46A9658D142595CF285FED4 /* libPods-Favorites.a */,
+				8364D6C6E296FD763E053C51 /* Pods_Favorites.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +134,8 @@
 			children = (
 				C662622476B14762B38F67EF /* Pods-Favorites.debug.xcconfig */,
 				4CCCC1ABE83A2BB62BD24478 /* Pods-Favorites.release.xcconfig */,
+				93511624D9DF8BB922C04A5A /* Pods-ProgamersExpertAbs-Favorites.debug.xcconfig */,
+				B431751D1A83CD64C63AFB44 /* Pods-ProgamersExpertAbs-Favorites.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../ProgamersExpert/Pods;
@@ -198,7 +202,7 @@
 			);
 			mainGroup = 90CD3F58274670BE00EEE8B1;
 			packageReferences = (
-				90B7C67E274E7FB9004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI" */,
+				90B7C67E274E7FB9004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI.git" */,
 				90C0D03F275D0FC000BCF7F6 /* XCRemoteSwiftPackageReference "Progamers-CorePackage" */,
 			);
 			productRefGroup = 90CD3F63274670BE00EEE8B1 /* Products */;
@@ -464,7 +468,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		90B7C67E274E7FB9004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
+		90B7C67E274E7FB9004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CSolanaM/SkeletonUI.git";
 			requirement = {
@@ -485,7 +489,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		90B7C67F274E7FB9004C84ED /* SkeletonUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 90B7C67E274E7FB9004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI" */;
+			package = 90B7C67E274E7FB9004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI.git" */;
 			productName = SkeletonUI;
 		};
 		90C0D040275D0FC000BCF7F6 /* CorePackage */ = {

@@ -14,4 +14,4 @@ before_install:
 jobs:
   include:
     - name: "Build App"
-      script: ./build_script.sh
+      script: scripts/build_script.sh

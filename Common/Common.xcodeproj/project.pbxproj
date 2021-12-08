@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32162174D3862C9329F45856 /* libPods-Common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 210A88EE3ADBAFAB69D2AAC2 /* libPods-Common.a */; };
+		4CC714DDB4B9ED71535A29B7 /* Pods_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D322CEF1F978493045F569 /* Pods_Common.framework */; };
 		902D4D6F274540A400EE0EAA /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 902D4D6E274540A400EE0EAA /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90CD3F572746702000EEE8B1 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CD3F562746702000EEE8B1 /* String+Localization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		210A88EE3ADBAFAB69D2AAC2 /* libPods-Common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF0CE86795B35EB4CDCFF3B /* Pods-ProgamersExpertAbs-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertAbs-Common.release.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertAbs-Common/Pods-ProgamersExpertAbs-Common.release.xcconfig"; sourceTree = "<group>"; };
 		2BD9427E0AB92BF97575DB5B /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.debug.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
 		4A54BAAAB9EBFE12C55C1C48 /* Pods-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.release.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.release.xcconfig"; sourceTree = "<group>"; };
 		902D4D6B274540A400EE0EAA /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		902D4D6E274540A400EE0EAA /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		90CD3F562746702000EEE8B1 /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
+		A39067CE5E8EE9B7AA63BBB4 /* Pods-ProgamersExpertAbs-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgamersExpertAbs-Common.debug.xcconfig"; path = "Target Support Files/Pods-ProgamersExpertAbs-Common/Pods-ProgamersExpertAbs-Common.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D322CEF1F978493045F569 /* Pods_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32162174D3862C9329F45856 /* libPods-Common.a in Frameworks */,
+				4CC714DDB4B9ED71535A29B7 /* Pods_Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +38,7 @@
 		56016CD728FC2DB4C0CBFA2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				210A88EE3ADBAFAB69D2AAC2 /* libPods-Common.a */,
+				C7D322CEF1F978493045F569 /* Pods_Common.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,6 +75,8 @@
 			children = (
 				2BD9427E0AB92BF97575DB5B /* Pods-Common.debug.xcconfig */,
 				4A54BAAAB9EBFE12C55C1C48 /* Pods-Common.release.xcconfig */,
+				A39067CE5E8EE9B7AA63BBB4 /* Pods-ProgamersExpertAbs-Common.debug.xcconfig */,
+				1AF0CE86795B35EB4CDCFF3B /* Pods-ProgamersExpertAbs-Common.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../ProgamersExpert/Pods;
