@@ -12,4 +12,4 @@ before_install:
 - git submodule update --init --recursive
 
 script:
-set -o pipefail && xcodebuild -workspace ProgamersExpert/ProgamersExpert.xcworkspace -scheme ProgamersExpert -destination platform\=iOS\ Simulator,OS\=14.0.1,name\=iPhone\ 11\ Pro build test | xcpretty
+- set -o pipefail && xcodebuild -workspace ProgamersExpert/ProgamersExpert.xcworkspace -scheme ProgamersExpert -destination platform\=iOS\ Simulator,OS\=14.0.1,name\=iPhone\ 11\ Pro build test | xcpretty
