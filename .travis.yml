@@ -11,7 +11,5 @@ before_install:
 - pod install --project-directory=ProgamersExpert
 - git submodule update --init --recursive
 
-jobs:
-  include:
-    - name: "Build App"
-      script: scripts/build_script.sh
+script:
+set -o pipefail && xcodebuild -workspace ProgamersExpert/ProgamersExpert.xcworkspace -scheme ProgamersExpert -destination platform\=iOS\ Simulator,OS\=14.0.1,name\=iPhone\ 11\ Pro build test | xcpretty
