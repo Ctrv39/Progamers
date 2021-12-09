@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2BF27547125DD76536DCFD71 /* Pods_GameRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE85BEC9BA2679AD7D91BBE2 /* Pods_GameRow.framework */; };
+		904ED44E2761F868009E50DC /* CorePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 904ED44D2761F868009E50DC /* CorePackage */; };
 		90B7C68F274E80D2004C84ED /* GameRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B7C68E274E80D2004C84ED /* GameRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90B7C699274E81C2004C84ED /* GameRowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B7C696274E81C2004C84ED /* GameRowPresenter.swift */; };
 		90B7C69A274E81C2004C84ED /* GameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B7C698274E81C2004C84ED /* GameRow.swift */; };
@@ -15,7 +16,6 @@
 		90B7C6A9274E837D004C84ED /* GameRowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B7C6A8274E837D004C84ED /* GameRowInteractor.swift */; };
 		90B7C6AB274E83A7004C84ED /* RatingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B7C6AA274E83A7004C84ED /* RatingOverlay.swift */; };
 		90B7C6AE274E83F2004C84ED /* SkeletonUI in Frameworks */ = {isa = PBXBuildFile; productRef = 90B7C6AD274E83F2004C84ED /* SkeletonUI */; };
-		90C0D03B275D0F9A00BCF7F6 /* CorePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 90C0D03A275D0F9A00BCF7F6 /* CorePackage */; };
 		90CC50E12755121B00E12881 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 90CC50E02755121B00E12881 /* RxCocoa */; };
 		90CC50E32755121B00E12881 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 90CC50E22755121B00E12881 /* RxSwift */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,7 @@
 				90B7C6A4274E82CE004C84ED /* SDWebImageSwiftUI in Frameworks */,
 				90B7C6AE274E83F2004C84ED /* SkeletonUI in Frameworks */,
 				90CC50E12755121B00E12881 /* RxCocoa in Frameworks */,
-				90C0D03B275D0F9A00BCF7F6 /* CorePackage in Frameworks */,
+				904ED44E2761F868009E50DC /* CorePackage in Frameworks */,
 				2BF27547125DD76536DCFD71 /* Pods_GameRow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,7 +163,7 @@
 				90B7C6AD274E83F2004C84ED /* SkeletonUI */,
 				90CC50E02755121B00E12881 /* RxCocoa */,
 				90CC50E22755121B00E12881 /* RxSwift */,
-				90C0D03A275D0F9A00BCF7F6 /* CorePackage */,
+				904ED44D2761F868009E50DC /* CorePackage */,
 			);
 			productName = GameRow;
 			productReference = 90B7C68B274E80D2004C84ED /* GameRow.framework */;
@@ -193,9 +193,9 @@
 			);
 			mainGroup = 90B7C681274E80D2004C84ED;
 			packageReferences = (
-				90B7C6A2274E82CE004C84ED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI.git" */,
-				90B7C6AC274E83F2004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI.git" */,
-				90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift.git" */,
+				90B7C6A2274E82CE004C84ED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				90B7C6AC274E83F2004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI" */,
+				90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				90C0D039275D0F9A00BCF7F6 /* XCRemoteSwiftPackageReference "Progamers-CorePackage" */,
 			);
 			productRefGroup = 90B7C68C274E80D2004C84ED /* Products */;
@@ -461,7 +461,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		90B7C6A2274E82CE004C84ED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI.git" */ = {
+		90B7C6A2274E82CE004C84ED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
@@ -469,7 +469,7 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		90B7C6AC274E83F2004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI.git" */ = {
+		90B7C6AC274E83F2004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CSolanaM/SkeletonUI.git";
 			requirement = {
@@ -485,7 +485,7 @@
 				kind = branch;
 			};
 		};
-		90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift.git" */ = {
+		90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -496,29 +496,29 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		90B7C6A3274E82CE004C84ED /* SDWebImageSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 90B7C6A2274E82CE004C84ED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI.git" */;
-			productName = SDWebImageSwiftUI;
-		};
-		90B7C6AD274E83F2004C84ED /* SkeletonUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 90B7C6AC274E83F2004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI.git" */;
-			productName = SkeletonUI;
-		};
-		90C0D03A275D0F9A00BCF7F6 /* CorePackage */ = {
+		904ED44D2761F868009E50DC /* CorePackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 90C0D039275D0F9A00BCF7F6 /* XCRemoteSwiftPackageReference "Progamers-CorePackage" */;
 			productName = CorePackage;
 		};
+		90B7C6A3274E82CE004C84ED /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90B7C6A2274E82CE004C84ED /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		90B7C6AD274E83F2004C84ED /* SkeletonUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90B7C6AC274E83F2004C84ED /* XCRemoteSwiftPackageReference "SkeletonUI" */;
+			productName = SkeletonUI;
+		};
 		90CC50E02755121B00E12881 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift.git" */;
+			package = 90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
 		90CC50E22755121B00E12881 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift.git" */;
+			package = 90CC50DF2755121B00E12881 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
